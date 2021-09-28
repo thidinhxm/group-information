@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:visited {
+    color: #00f;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%
+    
+}
+
+body {
+    background-color: #65d3a9;
+    font-size: 1.2rem;
+    
+}
+
+.container {
+    margin: 100px auto;
+    height: 500px;
+    width: 900px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 20px;
+    display: flex;
+}
+
+.image {
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #313b46;
+    flex: 1.5;
+}
+
+.img {
+    margin: 30% auto;
+    height: 250px;
+    width: 250px;
+    border: 5px solid rgb(76, 233, 115);
+    border-radius: 50%;
+    box-shadow:  0 15px 15px rgba(76, 233, 115, 0.5), 0 -15px 15px rgba(76, 233, 115, 0.5);
+}
+
+.info {
+    flex: 2;
+    background-color: rgb(209, 205, 205);
+    border-radius: 20px;
+    border-style: dashed;
+    margin: 20px 40px;
+}
+
+.table {
+    margin: -10px 20px 0px 40px;
+    width: 400px;
+    line-height: 3.5;
+}
+
+.info-title {
+    margin: -10px 0px -35px -30px;
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 100%;
+}
+
+.info-detail {
+    font-weight: 600;
+    color: rgba(10, 10, 10, 0.8);
+}
+
+.info-description {
+    font-weight: 600;
+}
+
+.green-text {
+    color: rgb(37, 117, 62);
+}
+.btn {
+    font-size: 20px;
+    margin: -50px auto 0 auto;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+}
+
+.btn:hover {
+    background-color: rgb(85, 223, 51);
+}
+
+.btn:hover a {
+    color: #fff;
+}
+
+
+/* ==== TRỊNH THÊM CSS === */
+.img .j4fun{
+    position: relative;
+    top: -245px;
+    display: none;
+}
+  
+.img:hover .j4fun {
+    display: inline;
+    opacity: 0.89;
+}
+
+/* ===== DEFAULT PAGE ====== */
+
+.table-base {
+    width: 70%;
+    margin-left: 40px;
+}
+
+.blue-text {
+    color: rgb(36, 120, 146);
+}
+
+.blue-background {
+    background-color: rgb(126, 208, 214);
+}
+
+
+.blue-circle {
+    border: 5px solid rgb(76, 223, 233);
+    box-shadow:  0 15px 15px rgba(76, 233, 225, 0.5), 0 -15px 15px rgba(76, 233, 233, 0.5);
+}
